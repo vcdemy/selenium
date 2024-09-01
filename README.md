@@ -12,7 +12,7 @@
 
 2022年11月4日之後 ，selenium(4.6.0+)有內建 selenium manager，如果在特定的路徑上沒有找到webdriver，selenium會自動幫你下載。
 
-新版的 selenium 沒有 find_element_by_xxx 的方法了，取而代之的是 find_element(By.XXX)的方法。
+新版的 selenium 沒有 `find_element_by_xxx()` 的方法了，取而代之的是 `find_element(By.XXX)`的方法。
 
 ```python
 from selenium.webdriver.common.by import By
