@@ -4,9 +4,9 @@
 
 ## 關於唯客學院
 
-* [唯客學院網址](http://www.vcdemy.com)
+* [唯客學院網址](https://www.vcdemy.com)
 * [唯客學院粉絲專頁](https://www.facebook.com/vcdemy/)
-* [唯客學院線上課程](https://khpy.teachable.com)
+* [唯客學院線上課程](https://vcdemy.teachable.com)
 
 ## 新舊版 selenium 使用上的差異
 
