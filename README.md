@@ -19,6 +19,35 @@ from selenium.webdriver.common.by import By
 element = driver.find_element(By.CSS_SELECTOR, "#id")
 ```
 
+## 課程內容
+
+### 1. Selenium基礎
+#### 1.1 安裝與設定
+* 安裝 Selenium (pip install selenium) 和瀏覽器驅動程式（如 ChromeDriver）。
+* 配置瀏覽器驅動程式並測試是否能正常打開瀏覽器。
+#### 1.2 基本操作
+* 瀏覽器控制（開啟、關閉、最大化、最小化）。
+* 打開網頁 (`driver.get(url)`).
+* 查找元素（`find_element` 和 `find_elements`）:
+`* 使用不同的方法來查找元素：`By.ID`, `By.NAME`, `By.XPATH`, `By.CSS_SELECTOR`。
+### 2. 操作與等待
+#### 2.1 元素操作
+* 點擊元素 (`element.click()`).
+* 輸入文字 (`element.send_keys("text")`).
+* 清除文字框 (`element.clear()`).
+#### 2.2 等待
+* 隱式等待 (`driver.implicitly_wait(time_in_seconds)`).
+* 顯式等待 (`WebDriverWait` 和 `expected_conditions`).
+* 判斷元素是否存在或可點擊。
+### 3. 高級操作與應用
+#### 3.1 高級操作
+* 滾動頁面 (`driver.execute_script("window.scrollTo(...)")`).
+* 處理多個視窗/頁籤。
+* 處理彈出視窗和警示對話方塊 (`driver.switch_to.alert`).
+#### 3.2 應用練習
+* 用上述學習的內容寫一個小專案，例如自動化登入網站或抓取簡單的資料。
+* 嘗試處理異常和錯誤，確保程式的穩定性。
+
 ## 輔助工具
 
 |工具|說明|
