@@ -29,7 +29,7 @@ element = driver.find_element(By.CSS_SELECTOR, "#id")
 * 瀏覽器控制（開啟、關閉、最大化、最小化）。
 * 打開網頁 (`driver.get(url)`).
 * 查找元素（`find_element` 和 `find_elements`）:
-`* 使用不同的方法來查找元素：`By.ID`, `By.NAME`, `By.XPATH`, `By.CSS_SELECTOR`。
+ * 使用不同的方法來查找元素：`By.ID`, `By.NAME`, `By.XPATH`, `By.CSS_SELECTOR`。
 ### 2. 操作與等待
 #### 2.1 元素操作
 * 點擊元素 (`element.click()`).
