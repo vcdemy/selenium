@@ -39,8 +39,8 @@ element = driver.find_element(By.CSS_SELECTOR, "#id")
 * 隱式等待 (`driver.implicitly_wait(time_in_seconds)`).
 * 顯式等待 (`WebDriverWait` 和 `expected_conditions`).
 * 判斷元素是否存在或可點擊。
-### 3. 高級操作與應用
-#### 3.1 高級操作
+### 3. 進階操作與應用練習
+#### 3.1 進階操作
 * 滾動頁面 (`driver.execute_script("window.scrollTo(...)")`).
 * 處理多個視窗/頁籤。
 * 處理彈出視窗和警示對話方塊 (`driver.switch_to.alert`).
