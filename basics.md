@@ -1,4 +1,4 @@
-# Selenium基礎
+# 基礎操作
 
 Selenium 是一個強大的工具，用來自動化網頁瀏覽器的操作。使用 Python 和 Selenium，你可以編寫腳本來模擬使用者在網頁上的各種操作，例如點擊、輸入、選擇等等。以下是 Python 中 Selenium 的基礎操作介紹。
 
